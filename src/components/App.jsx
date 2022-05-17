@@ -5,7 +5,7 @@ import Note from "./Note";
 import CreateArea from "./CreateArea";
 import axios from "axios";
 
-const API_ENDPOINT = process.env.NODE_ENV || "https://arcane-cove-98465.herokuapp.com/";
+// const API_ENDPOINT = process.env.NODE_ENV || "https://arcane-cove-98465.herokuapp.com/";
 
 function App() {
   const [notes, setNotes] = useState([]);

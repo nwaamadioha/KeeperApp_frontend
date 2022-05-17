@@ -31,7 +31,7 @@ function CreateArea(props) {
   function submitNote(event) {
     event.preventDefault();
     props.onAdd(note);
-    axios.post("http://localhost:5000", note)
+    axios.post("https://arcane-cove-98465.herokuapp.com/", note)
       .then(res => console.log(res.data));
     // window.location = "/";
     setNote({
